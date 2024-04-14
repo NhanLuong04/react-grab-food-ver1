@@ -1,0 +1,34 @@
+.read-more-p h3 {
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.read-more-p .read-more-content {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+hr {
+  border: 0.8px solid rgb(244, 234, 234);
+}
+.read-more-content ol {
+  display: inline-block;
+  margin-left: 45px;
+}
+.read-more-content ol li {
+  margin: 16px 0;
+}
+.read-more-content ol li:nth-child(3) {
+  margin-bottom: 0;
+}
+.read-more-content ol li span {
+  font-weight: 700;
+}
+.read-more-content span {
+  display: block;
+}
+.read-more-content span:nth-child(2) {
+  margin-top: 16px;
+}
+.active {
+  display: none;
+}

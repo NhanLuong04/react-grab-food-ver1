@@ -1,0 +1,38 @@
+.food-details h1 {
+  margin: 12px 0;
+}
+.food-category {
+  margin: 0 0 12px 0;
+}
+.food-more-info,
+.food-time-dist,
+.food-tag,
+.food-rate {
+  display: flex;
+  align-items: center;
+}
+.food-more-info {
+  gap: 10px;
+  margin-bottom: 7px;
+}
+.food-time,
+.food-tag span,
+.food-rate span {
+  margin-left: 10px;
+}
+.food-time-dist {
+  margin-left: 35px;
+}
+
+.food-tag {
+  justify-content: flex-start;
+}
+.food-open-door {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  margin-bottom: 8px;
+}
+.food-date {
+  margin-left: 50px;
+}

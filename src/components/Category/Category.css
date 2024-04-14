@@ -1,0 +1,25 @@
+.category-foods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
+  gap: 5px;
+}
+.category-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 276px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+.category-content {
+  width: 100%;
+  text-decoration: none;
+}
+.category-content img {
+  border-radius: 10px;
+  width: 100%;
+}
+.category-content p {
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 600;
+}

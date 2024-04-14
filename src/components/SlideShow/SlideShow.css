@@ -1,0 +1,32 @@
+.slide-show {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.slide-show-item {
+  width: 100px;
+  display: inline-block;
+  padding: 14px 24px;
+  color: rgb(128, 128, 128);
+  font-size: 16px;
+  white-space: nowrap;
+  gap: 5px;
+  transition: all 0.4s;
+}
+.slide-show-item:hover {
+  color: #00b14f;
+}
+.slide-show-item.active {
+  position: relative;
+  color: #00b14f;
+}
+.slide-show-item.active:after {
+  content: "";
+  position: absolute;
+  background-color: #00b14f;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}

@@ -1,0 +1,17 @@
+.list-foods {
+  margin-top: 40px;
+}
+.list-food-link {
+  display: flex;
+  width: 250px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.list-food-link a {
+  color: #00a5cf;
+}
+.list-food-link i {
+  color: gray;
+  display: inline-block;
+  margin: 0 12px;
+}

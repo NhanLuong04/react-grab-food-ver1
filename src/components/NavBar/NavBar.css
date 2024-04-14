@@ -1,0 +1,100 @@
+.navbar {
+  height: 88px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar.transparent1 {
+  background-color: white;
+}
+.navbar .container {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.container .navbar-content {
+  height: 100%;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo img,
+.navbar-logo a {
+  width: auto;
+  height: 50px;
+}
+.navbar-content .navbar-menu {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 12px;
+}
+.navbar-menu .navbar-cart,
+.navbar-login,
+.navbar-change-lang {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #f0efef;
+  font-size: 12px;
+}
+.navbar-menu .navbar-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 100%;
+}
+
+.navbar-menu .navbar-login {
+  height: 100%;
+  padding: 0 12px;
+}
+.navbar-login a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navbar .navbar-change-lang {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  height: 100%;
+  cursor: pointer;
+}
+.navbar-change-lang span {
+  display: inline-block;
+  margin-left: 8px;
+}
+.navbar-findAddress {
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.475);
+  width: 310px;
+  align-items: center;
+  padding: 0 25px;
+  border-radius: 8px;
+  margin-right: 310px;
+}
+.navbar-delivery {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+}
+.navbar-delivery span {
+  margin-right: 10px;
+}
+.navbar-delivery span i {
+  font-size: 32px;
+}
+.navbar-findAddress input {
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 14px;
+}

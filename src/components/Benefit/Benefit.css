@@ -1,0 +1,16 @@
+.benefit-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.benefit-container .benefit-p {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+.benefit-p1 {
+  line-height: 1.5;
+}
+.benefit-p1 span {
+  font-weight: 600;
+}
